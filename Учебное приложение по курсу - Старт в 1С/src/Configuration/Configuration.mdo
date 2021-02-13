@@ -35,4 +35,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <constants>Constant.НазваниеОрганизации</constants>
+  <catalogs>Catalog.Товары</catalogs>
 </mdclass:Configuration>
