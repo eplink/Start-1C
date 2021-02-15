@@ -37,4 +37,5 @@
   <constants>Constant.НазваниеОрганизации</constants>
   <catalogs>Catalog.Товары</catalogs>
   <documents>Document.ПриходТовара</documents>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>
