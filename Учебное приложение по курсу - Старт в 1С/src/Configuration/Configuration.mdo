@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="745aa7e8-d65d-4d14-a1c5-e300cb6f8658">
+  <name>Учебное_приложение_по_курсу_Старт_в_1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебное приложение по курсу: &quot;Старт в 1С&quot;</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e4939a9d-f126-4507-93a1-649616623dc4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="59aca0ee-c48d-4c42-b3b2-23e409962c5e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2d9cfbff-71a1-4619-955d-313df54ebd71"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fc5de73a-dabb-4ddd-90a9-d3a4f612032e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c9ead3b9-6e1e-47db-962e-3cabf81cecfa"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5fd7b088-f1a2-459a-aa1b-a6b6a1e6a234"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7b6335f7-c5d0-4cf2-a50b-5a92c8028574"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="af0955e0-7250-4087-8d72-737a0905d5a3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ПриходТовара</documents>
+  <documents>Document.РасходТовара</documents>
+  <reports>Report.ОстаткиТоваровНаСкладе</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+</mdclass:Configuration>

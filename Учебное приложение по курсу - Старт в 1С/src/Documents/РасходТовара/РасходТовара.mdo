@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84966a17-134a-47ad-8e26-914689dc504b">
+  <producedTypes>
+    <objectType typeId="3e4191c7-dc1f-4ba3-bb4b-be8777c3a047" valueTypeId="59b3662e-9ee2-42ac-9351-2674e6d07cf0"/>
+    <refType typeId="497838f6-5ca6-43d7-a8ea-40da999e365d" valueTypeId="9dc5c127-d44b-465d-bed8-45cd8ecefa36"/>
+    <selectionType typeId="6a7f96f3-5ab8-45fd-ae64-1f71642cb833" valueTypeId="59030b78-d0f0-41e7-a9e8-3d83dd8653cb"/>
+    <listType typeId="1b6a5318-34a3-4758-b804-5a7c6b4b0678" valueTypeId="428df1cc-5be0-4940-89a6-d40562f6541e"/>
+    <managerType typeId="a4e6a8ff-71ac-44b0-8442-c5a817c925cf" valueTypeId="730c3965-5608-47de-9261-547e737def8c"/>
+  </producedTypes>
+  <name>РасходТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РасходТовара.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8734b670-6809-4dd5-be87-268210c051d9">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bc634fcf-c760-4cb5-8da9-c0c593ee7602">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="87a8af1d-6a94-40f2-99c7-39daab48deab">
+    <producedTypes>
+      <objectType typeId="e567af82-edfd-4817-bfe4-a50350c6c0c0" valueTypeId="a5aefd78-3424-4e6e-a25b-b7b963f82b9d"/>
+      <rowType typeId="a6bd98b1-0882-4ad0-a1b1-3f00011b7c52" valueTypeId="9d73c296-5549-439f-92c6-41fa056b08f6"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="3fd8dcca-33cf-4735-beab-4e027bb41e68">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45b79bd4-bce6-460a-bfbb-6d8c32203ff2">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9cee9b42-687c-4d68-af41-bbeeaadf3f30">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0be7e4f4-374a-4538-8437-a96d85977881">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
